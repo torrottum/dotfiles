@@ -4,7 +4,6 @@ tap caskroom/versions
 install brew-cask
 
 cask install alfred
-cask install alfred
 cask install google-chrome
 cask install iterm2
 cask install libreoffice
