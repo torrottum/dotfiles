@@ -56,6 +56,7 @@ function sync(){
 	ln -s $(pwd)/.zsh/ $HOME/.zsh
 	ln -s $(pwd)/.brewfile $HOME/.brewfile
 	ln -s $(pwd)/.caskfile $HOME/.caskfile
+	ln -s $(pwd)/.osx $HOME/.osx
 
 	echo ""
 
@@ -81,6 +82,7 @@ function sync(){
 		echo -e "${GREEN}Dracula theme is already imported into iTerm :)${RESET}"
 	fi
 
+	./.osx
 	echo -e "${GREEN}All done!${RESET}"
 }
 
