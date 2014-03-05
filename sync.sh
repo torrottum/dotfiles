@@ -59,12 +59,12 @@ function sync(){
 
 	echo ""
 
-	echo -e "${CYAN}Installing from .brewfile ...${RESET}"
+	echo -e "${CYAN}brew bundling from .brewfile ...${RESET}"
 	brew bundle .brewfile
 
 	echo ""
 
-	echo -e "${CYAN}Intalling from .caskfile ..${RESET}"
+	echo -e "${CYAN}brew bundling from .caskfile ..${RESET}"
 	brew bundle .caskfile
 
 	echo ""
