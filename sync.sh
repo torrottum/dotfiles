@@ -65,6 +65,7 @@ function sync(){
 	echo ""
 
 	echo -e "${CYAN}brew bundling from .caskfile ..${RESET}"
+	export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 	brew bundle .caskfile
 
 	echo ""
