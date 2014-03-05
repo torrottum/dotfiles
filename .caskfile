@@ -8,5 +8,7 @@ cask install google-chrome
 cask install iterm2
 cask install libreoffice
 cask install sublime-text3
+cask install transmission
+cask install mplayerx
 
 cask alfred link
