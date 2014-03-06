@@ -4,5 +4,6 @@ upgrade
 install git
 install unrar
 install trash
+install z
 
 cleanup

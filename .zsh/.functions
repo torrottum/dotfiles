@@ -1,0 +1,2 @@
+# z for easy navigation
+. `brew --prefix`/etc/profile.d/z.sh
