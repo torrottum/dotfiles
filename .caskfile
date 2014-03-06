@@ -12,5 +12,6 @@ cask install transmission
 cask install mplayerx
 cask install silverlight
 cask install adobe-creative-cloud
+cask install dropbox
 
 cask alfred link
