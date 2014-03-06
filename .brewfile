@@ -2,5 +2,7 @@ update
 upgrade
 
 install git
+install unrar
+install trash
 
 cleanup
