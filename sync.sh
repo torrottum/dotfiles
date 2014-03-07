@@ -91,9 +91,10 @@ function sync(){
 }
 
 echo -e "${CYAN}Dotfiles!${RESET}"
-echo -e "${RED}Warning:${RESET} This might ${RED}**OVERWRITE**${RESET} files in your home directoy!"
+echo -e "${RED}Warning:${RESET} This might ${RED}**overwrite**${RESET} files in your home directory!"
+echo -e "It will also install cli apps, gui apps and reconfigure stuff. Run at your own risk"
 echo ""
-# TODO: ask
+
 read -p "Are you sure you want to do this? (y/n) "
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	sync
