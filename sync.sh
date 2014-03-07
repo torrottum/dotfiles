@@ -80,12 +80,13 @@ function sync(){
 	# Check if Dracula is already imported, because iTerm will import it multiple times
 	if ! grep -q Dracula $HOME/Library/Preferences/com.googlecode.iterm2.plist; then
 		echo "Importing dracula-theme to iTerm ..."
-		open dracula-theme/iterm/Dracula.itermcolors -a iTerm
+		open $DIR/dracula-theme/iterm/Dracula.itermcolors -a iTerm
 	else
 		echo -e "${GREEN}Dracula theme is already imported into iTerm :)${RESET}"
 	fi
 
-	./.osx
+	echo -e "${CYAN}Running $HOME/.osx ...${RESET}"
+	$HOME/.osx
 	echo -e "${GREEN}All done!${RESET}"
 }
 
