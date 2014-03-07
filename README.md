@@ -1,6 +1,8 @@
 # Dotfiles
 My dotfiles for zsh, homebrew, homebrew-cask, OS X settings, etc.
 
+The point of the repo is that when I reinstall OS X, or setup a new machine I can just clone the repo and run the `sync.sh` file
+
 ## Installation
 *(At your own risk, of course!)*
 
