@@ -1,2 +1,11 @@
 # z for easy navigation
 . `brew --prefix`/etc/profile.d/z.sh
+
+# Extracts rar files and opens mkv files
+# Takes folder containing rar files as argument
+function extract-and-watch {
+	pushd $1
+	unrar x *.rar
+	open *.mkv -a mplayerx
+	popd
+}
