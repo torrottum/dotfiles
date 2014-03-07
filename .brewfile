@@ -6,5 +6,6 @@ install unrar
 install trash
 install z
 install node
+install tree
 
 cleanup
