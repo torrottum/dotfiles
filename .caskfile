@@ -13,5 +13,6 @@ cask install mplayerx
 cask install silverlight
 cask install adobe-creative-cloud
 cask install dropbox
+cask install audacity
 
 cask alfred link
