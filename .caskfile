@@ -15,5 +15,7 @@ cask install adobe-creative-cloud
 cask install dropbox
 cask install audacity
 cask install thunderbird
+cask install virtualbox
+cask install vagrant
 
 cask alfred link
