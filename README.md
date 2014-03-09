@@ -10,6 +10,8 @@ Run `./sync.sh` which will first warn and ask you if you are sure. Then it will 
 
 **If I were you I'd look inside the script to see what it's doing before running it.**
 
+`.osx` should probably be ran again manually after installing (done automatically in install.sh) and opening (must be done manually) some of the applications (iTerm, Transmission, MPlayerX, etc)
+
 ## Credits
 Some of the things and ideas in this repo is taken from others:
 * [Mathias Bynens](https://github.com/mathiasbynens) and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles) for the excellent ~/.osx (I have customized mine, though)
