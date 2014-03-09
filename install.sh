@@ -18,7 +18,7 @@ function sync(){
 	echo ""
 
 	echo -e "${CYAN}Checking if Oh My ZSH is installed ...${RESET}"
-	if [[ ! -d ~/.oh-my-zsh ]]; then 
+	if [[ ! -d ~/.oh-my-zsh ]]; then
 		echo -e "${RED}Oh My ZSH is not installed :(${RESET}"
 		echo "Installing Oh My ZSH ..."
 		git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
@@ -60,6 +60,15 @@ function sync(){
 	ln -s $DIR/.brewfile $HOME/.brewfile
 	ln -s $DIR/.caskfile $HOME/.caskfile
 	ln -s $DIR/.osx $HOME/.osx
+
+	echo ""
+
+	echo -e "${CYAN}Symlinking Sublime Text 3 settings ...${RESET}"
+	if [[ ! -d $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ ]]; then
+		mkdir -p $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+	fi
+	ln -s $DIR/sublime-text/Package\ Control.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+	ln -s $DIR/sublime-text/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 	echo ""
 

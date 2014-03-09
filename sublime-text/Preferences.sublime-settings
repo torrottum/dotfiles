@@ -1,0 +1,31 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"enable_telemetry": false,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown"
+	],
+	"rulers":
+	[
+		80
+	],
+	"show_line_endings": true,
+	"theme": "Minimal Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
