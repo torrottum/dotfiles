@@ -151,6 +151,9 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
 defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Documents/Torrents"
 
+# Use `~/Documents/Torrents` as default download dir
+defaults write org.m0k.transmission DownloadFolder -string "${HOME}/Documents/Torrents"
+
 # Trash original torrent files
 defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
 
