@@ -18,5 +18,6 @@ cask install thunderbird
 cask install virtualbox
 cask install vagrant
 cask install limechat
+cask install poedit
 
 cask alfred link
