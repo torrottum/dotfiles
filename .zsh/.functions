@@ -3,6 +3,7 @@
 
 # Extracts rar files and opens mkv files
 # Takes folder containing rar files as argument
+# Todo: Open the file from the unrar output
 function extract-and-watch {
 	pushd $1
 	unrar x *.rar
