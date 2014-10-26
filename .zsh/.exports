@@ -1,2 +1,0 @@
-export PATH=/usr/local/bin:/usr/local/sbin:$HOME/.bin:$PATH
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"

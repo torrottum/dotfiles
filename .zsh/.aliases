@@ -1,6 +1,0 @@
-alias cask='brew cask'
-# vim as colorized less: https://twitter.com/jjb_code/status/259517318961455104
-alias c='vim -u /usr/share/vim/vim73/macros/less.vim'
-
-# source the zsh config
-alias zource='source ~/.zshrc'
