@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Tapping caskroom/versions"
+brew tap caskroom/versions
+
+echo "Upgrading homebrew-cask"
+brew upgrade brew-cask
+
+echo "Installing gui apps"
+brew cask install alfred
+brew cask install google-chrome
+brew cask install dropbox
+brew cask install iterm2-nightly
+brew cask install sourcetree
+brew cask install sublime-text3
+brew cask install sequel-pro
+brew cask install mplayerx
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install limechat
+brew cask install poedit
+
+echo "Linking homebrew-cask to alfred"
+brew cask alfred link
+
+# Cleanup outdated things
+echo "Cleaning up homebrew-cask"
+brew cask cleanup

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Updating homebrew"
+brew update
+
+echo "Upgrading installed formulae"
+brew upgrade
+
+# Install homebrew cask for gui apps
+brew install brew-cask
+
+# Install useful things
+brew install trash
+brew install hub
+brew install tree
+
+# Cleanup outdated things
+echo "Cleaning up homebrew"
+brew cleanup
