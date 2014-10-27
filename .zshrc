@@ -26,3 +26,10 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Include ~/.bin in PATH
 export PATH="$HOME/.bin:$PATH"
+
+
+# Misc
+# ====
+# Source Z
+. `brew --prefix`/etc/profile.d/z.sh
+
