@@ -14,6 +14,7 @@ brew install trash
 brew install hub
 brew install tree
 brew install z
+brew install node
 
 # Cleanup outdated things
 echo "Cleaning up homebrew"
