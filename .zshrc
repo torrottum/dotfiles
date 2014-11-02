@@ -31,9 +31,11 @@ export PATH="$HOME/.bin:$PATH"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin" 
+
 
 # Misc
 # ====
 # Source Z
 . `brew --prefix`/etc/profile.d/z.sh
-
