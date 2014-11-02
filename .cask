@@ -20,6 +20,7 @@ brew cask install vagrant
 brew cask install limechat
 brew cask install poedit
 brew cask install flux
+brew cask install spotify
 
 echo "Linking homebrew-cask to alfred"
 brew cask alfred link
