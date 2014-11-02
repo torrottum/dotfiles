@@ -8,7 +8,8 @@
 		".git",
 		".hg",
 		"CVS",
-		"node_modules"
+		"node_modules",
+		".sass-cache"
 	],
 	"font_face": "Menlo",
 	"font_size": 12,
@@ -24,6 +25,6 @@
 		80
 	],
 	"show_line_endings": true,
-	"theme": "Cyanide - Acid.sublime-theme",
+	"theme": "Cyanide - Wood.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
