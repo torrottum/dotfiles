@@ -27,6 +27,10 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # Include ~/.bin in PATH
 export PATH="$HOME/.bin:$PATH"
 
+# Set the language variables
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
 
 # Misc
 # ====
