@@ -7,7 +7,7 @@ echo "Upgrading installed formulae"
 brew upgrade
 
 # Install homebrew cask for gui apps
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 
 # Install useful things
 brew install trash
