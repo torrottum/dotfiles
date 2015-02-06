@@ -10,8 +10,6 @@ brew upgrade
 brew install caskroom/cask/brew-cask
 
 # Install useful things
-brew install trash
-brew install hub
 brew install tree
 brew install z
 brew install node
