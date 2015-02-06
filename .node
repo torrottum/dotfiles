@@ -1,0 +1,4 @@
+#!/bin/bash
+npm install -g trash
+npm install -g gulp
+npm install -g tvsort
