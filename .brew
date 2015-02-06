@@ -15,6 +15,12 @@ brew install z
 brew install node
 brew install lftp
 
+# Tap and install mpv
+brew tap mpv-player/mpv
+brew install --HEAD mpv-player/mpv/libass-ct
+brew install mpv
+brew linkapps mpv
+
 # Cleanup outdated things
 echo "Cleaning up homebrew"
 brew cleanup
