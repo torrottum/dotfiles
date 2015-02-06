@@ -14,10 +14,8 @@ brew cask install iterm2-nightly
 brew cask install sourcetree
 brew cask install sublime-text3
 brew cask install sequel-pro
-brew cask install mplayerx
 brew cask install virtualbox
 brew cask install vagrant
-brew cask install limechat
 brew cask install poedit
 brew cask install flux
 brew cask install spotify
