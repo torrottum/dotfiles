@@ -23,6 +23,7 @@ brew cask install transmission
 brew cask install atext
 brew cask install slack
 brew cask install firefox
+brew cask install bartender
 
 # Cleanup outdated things
 echo "Cleaning up homebrew-cask"
