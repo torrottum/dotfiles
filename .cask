@@ -23,9 +23,6 @@ brew cask install transmission
 brew cask install atext
 brew cask install slack
 
-echo "Linking homebrew-cask to alfred"
-brew cask alfred link
-
 # Cleanup outdated things
 echo "Cleaning up homebrew-cask"
 brew cask cleanup
