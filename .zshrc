@@ -22,6 +22,9 @@ alias firefox="open -a Firefox"
 alias airdropon='sudo ifconfig awdl0 up'
 alias airdropoff='sudo ifconfig awdl0 down'
 
+# Mosh into VPS and reattach irc session
+alias irc='mosh tor@rottum.me -- tmux attach -t irc'
+
 # Exports
 # =======
 # Homebrew cask symlink path
