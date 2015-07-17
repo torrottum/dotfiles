@@ -10,7 +10,7 @@ echo "Installing gui apps"
 brew cask install alfred
 brew cask install google-chrome
 brew cask install dropbox
-brew cask install iterm2-nightly
+brew cask install iterm2-beta
 brew cask install sourcetree
 brew cask install sublime-text3
 brew cask install sequel-pro
@@ -24,6 +24,7 @@ brew cask install atext
 brew cask install slack
 brew cask install firefox
 brew cask install bartender
+brew cask install hazel
 
 # Cleanup outdated things
 echo "Cleaning up homebrew-cask"
