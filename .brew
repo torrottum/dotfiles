@@ -14,11 +14,10 @@ brew install tree
 brew install z
 brew install node
 brew install lftp
-brew install android-platform-tools
+brew install git
 
 # Tap and install mpv
 brew tap mpv-player/mpv
-brew install --HEAD mpv-player/mpv/libass-ct
 brew install mpv
 brew linkapps mpv
 
