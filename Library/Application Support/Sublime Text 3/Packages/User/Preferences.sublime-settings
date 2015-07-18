@@ -1,6 +1,6 @@
 {
-	"afterglow_folder_icons": true,
-	"color_scheme": "Packages/Theme - Cyanide/Monocyanide ColorScheme.tmTheme",
+	"Seti_tabs_small": true,
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -25,6 +25,6 @@
 		80
 	],
 	"show_line_endings": true,
-	"theme": "Cyanide - Wood.sublime-theme",
+	"theme": "Seti.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }

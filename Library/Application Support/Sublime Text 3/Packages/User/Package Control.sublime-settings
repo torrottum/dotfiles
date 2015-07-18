@@ -1,12 +1,17 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
 		"EditorConfig",
+		"Emmet",
 		"GitGutter",
+		"Package Control",
 		"SCSS",
+		"Seti_UI",
 		"SideBarEnhancements",
-		"Theme - Cyanide",
 		"WordPress"
 	]
 }
