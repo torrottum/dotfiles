@@ -7,6 +7,7 @@ antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Pure theme
+antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
 antigen apply
