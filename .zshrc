@@ -22,6 +22,8 @@ alias firefox="open -a Firefox"
 # Mosh into VPS and reattach irc session
 alias irc='mosh tor@rottum.me -- tmux attach -t irc'
 
+alias v='vagrant'
+
 # Exports
 # =======
 # Homebrew cask symlink path
@@ -29,6 +31,9 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Include ~/.bin in PATH
 export PATH="$HOME/.bin:$PATH"
+
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
 
 # Set the language variables
 export LC_ALL="en_US.UTF-8"
@@ -38,4 +43,5 @@ export LANG="en_US.UTF-8"
 # ====
 # Source Z
 . `brew --prefix`/etc/profile.d/z.sh
+
 
