@@ -1,0 +1,7 @@
+[user]
+	email = tor@toringe.no
+	name = Tor Røttum
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
