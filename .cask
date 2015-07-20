@@ -24,7 +24,6 @@ brew cask install atext
 brew cask install slack
 brew cask install firefox
 brew cask install bartender
-brew cask install hazel
 
 # Cleanup outdated things
 echo "Cleaning up homebrew-cask"
