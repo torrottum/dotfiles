@@ -156,20 +156,13 @@ defaults write com.google.Chrome ExtensionInstallSources -array "https://gist.gi
 defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://gist.githubusercontent.com/" "http://userscripts.org/*"
 
 
-##############################################################################
-# MPlayerX.app                                                               #
-##############################################################################
-
-# Hide the letterbox
-defaults write org.niltsh.MPlayerX LetterBoxMode 0
-
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
 for app in "Activity Monitor" "cfprefsd" \
 	"Dock" "Finder" "SystemUIServer" \
-	"iTerm" "MPlayer"; do
+	"iTerm"; do
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
