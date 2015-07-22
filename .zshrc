@@ -29,6 +29,9 @@ alias v='vagrant'
 # Homebrew cask symlink path
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# Vim as editor
+export EDITOR=vim
+
 # Include ~/.bin in PATH
 export PATH="$HOME/.bin:$PATH"
 
