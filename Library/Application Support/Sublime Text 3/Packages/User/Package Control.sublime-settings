@@ -5,15 +5,16 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"CSS3",
 		"EditorConfig",
 		"Emmet",
 		"GitGutter",
 		"LESS",
 		"Markdown Preview",
 		"Package Control",
-		"SCSS",
 		"Seti_UI",
 		"SideBarEnhancements",
+		"Syntax Highlighting for Sass",
 		"WordPress"
 	]
 }
