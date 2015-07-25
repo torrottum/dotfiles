@@ -18,6 +18,9 @@ antigen apply
 # Aliases for opening apps with the terminal
 alias chrome="open -a Google\ Chrome"
 alias firefox="open -a Firefox"
+alias safari="open -a Safari"
+alias photoshop="open -a Adobe\ Photoshop\ CC\ 2015"
+alias illustrator="open -a Adobe\ Illustrator\ CC\ 2015"
 
 # Mosh into VPS and reattach irc session
 alias irc='mosh tor@rottum.me -- tmux attach -t irc'
@@ -46,5 +49,3 @@ export LANG="en_US.UTF-8"
 # ====
 # Source Z
 . `brew --prefix`/etc/profile.d/z.sh
-
-
