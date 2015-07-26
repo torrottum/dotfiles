@@ -14,6 +14,8 @@
 		"Package Control",
 		"Seti_UI",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-phpcs",
 		"Syntax Highlighting for Sass",
 		"WordPress"
 	]
