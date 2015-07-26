@@ -21,6 +21,10 @@ brew tap mpv-player/mpv
 brew install mpv
 brew linkapps mpv
 
+# Install php
+brew tap homebrew/dupes && brew tap homebrew/versions && brew tap homebrew/homebrew-php
+brew install php56
+
 # Cleanup outdated things
 echo "Cleaning up homebrew"
 brew cleanup
