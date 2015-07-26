@@ -41,6 +41,9 @@ export PATH="$HOME/.bin:$PATH"
 # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Add pear binaries to PATH
+export PATH="$(brew --prefix php56)/bin:$PATH"
+
 # Set the language variables
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
