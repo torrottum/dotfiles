@@ -10,7 +10,6 @@ echo "Installing gui apps"
 brew cask install alfred
 brew cask install google-chrome
 brew cask install dropbox
-brew cask install iterm2-beta
 brew cask install sourcetree
 brew cask install sublime-text3
 brew cask install sequel-pro
