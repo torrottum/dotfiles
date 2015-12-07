@@ -15,6 +15,9 @@ brew install z
 brew install node
 brew install lftp
 brew install git
+brew install gpg
+brew install gpg-agent
+brew install pass
 
 # Tap and install mpv
 brew tap mpv-player/mpv
