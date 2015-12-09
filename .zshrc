@@ -25,6 +25,8 @@ alias illustrator="open -a Adobe\ Illustrator\ CC\ 2015"
 
 # Mosh into VPS and reattach irc session
 alias irc='mosh tor@rottum.me -- tmux attach -t irc'
+# Attach or create tmux seedbox session with lftp
+alias seedbox="tmux attach -t seedbox 2> /dev/null || tmux new -s seedbox \"cd ~/Downloads; lftp -e 'cd data' sftp://torprivacy:@pontus.feralhosting.com\""
 
 alias v='vagrant'
 
