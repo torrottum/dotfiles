@@ -1,1 +1,2 @@
 0 * * * * /bin/bash -li -c "maid clean --force --silent"
+*/30 * * * * /Users/tor/.bin/sync-pass
