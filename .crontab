@@ -1,0 +1,1 @@
+0 * * * * /bin/bash -li -c "maid clean --force --silent"
