@@ -15,6 +15,7 @@ zplug "sindresorhus/pure"
 zplug "zsh-users/zsh-syntax-highlighting", nice:10
 zplug "b4b4r07/zplug"
 zplug "rupa/z", of:"*.sh"
+zplug "lib/history", from:oh-my-zsh
 
 
 #############
