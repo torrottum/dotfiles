@@ -14,6 +14,7 @@ zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure"
 zplug "zsh-users/zsh-syntax-highlighting", nice:10
 zplug "b4b4r07/zplug"
+zplug "rupa/z", of:"*.sh"
 
 
 #############
@@ -57,9 +58,6 @@ export LANG="en_US.UTF-8"
 ##########
 #  Misc  #
 ##########
-
-# Source z
-. /usr/local/etc/profile.d/z.sh
 
 # Start ssh-agent & gpg-agent using keychain
 if [[ ! -f "$HOME/.keychain/$HOST-sh" || ! -f "$HOME/.keychain/$HOST-sh-gpg" ]]; then
