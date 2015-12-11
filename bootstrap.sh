@@ -6,8 +6,8 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-		  --exclude "README.md" --exclude ".gitmodules" --exclude ".antigen/tests" \
-		  --exclude ".antigen/.git" --exclude ".gitignore" -avh --no-perms . ~;
+		  --exclude "README.md" --exclude ".gitmodules" \
+		  --exclude ".gitignore" -avh --no-perms . ~;
 
 	echo -e "\nAll done, now run 'source ~/.zshrc'";
 }
