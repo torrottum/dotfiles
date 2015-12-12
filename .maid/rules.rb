@@ -10,7 +10,6 @@ Maid.rules do
 
       if 4.days.since?(added_at(path))
         move(path, '~/Desktop/Limbo')
-#        system("terminal-notifier -title 'Moved file to Limbo' -message 'Moved #{basename}'")
       end
     end
 
@@ -21,28 +20,28 @@ Maid.rules do
 
   rule 'Delete old files from Limbo' do
     dir('~/Desktop/Limbo/*').each do |path|
-      system("/usr/local/bin/trash #{path}") if 4.weeks.since?(added_at(path))
+      system("/usr/local/bin/trash '#{path}'") if 4.weeks.since?(added_at(path))
     end
   end
 
   rule 'Delete old screenshots' do
     dir('~/Desktop/Screenshots/*').each do |path|
-      system("/usr/local/bin/trash #{path}") if 4.weeks.since?(added_at(path))
+      system("/usr/local/bin/trash '#{path}'") if 4.weeks.since?(added_at(path))
     end
   end
 
   rule 'Clean up downloads folder' do
     dir('~/Downloads/*.torrent').each do |path|
-      system("/usr/local/bin/trash #{path}")
+      system("/usr/local/bin/trash '#{path}'")
     end
 
     # These can generally be downloaded again very easily if needed
     dir('~/Downloads/*.{apk,deb,dmg,exe,pkg,rpm,app}').each do |p|
-      system("/usr/local/bin/trash #{path}") if 3.days.since?(accessed_at(p))
+      system("/usr/local/bin/trash '#{path}'") if 3.days.since?(accessed_at(p))
     end
 
     dir('~/Downloads/*').each do |path|
-      system("/usr/local/bin/trash #{path}") if 4.weeks.since?(added_at(path))
+      system("/usr/local/bin/trash '#{path}'") if 4.weeks.since?(added_at(path))
     end
   end
 
