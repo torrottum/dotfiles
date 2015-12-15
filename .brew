@@ -1,33 +1,48 @@
 #!/bin/bash
 
-echo "Updating homebrew"
+TAPS=(
+	homebrew/dupes
+	homebrew/versions
+	homebrew/homebrew-php
+	mpv-player/mpv
+)
+
+PKGS=(
+	caskroom/cask/brew-cask
+	tree
+	node
+	lftp
+	git
+	gpg
+	gpg-agent
+	pass
+	keychain
+	php56
+	mpv
+)
+
+LINKAPPS=(
+	mpv
+)
+
+echo "==> Updating homebrew"
 brew update
 
-echo "Upgrading installed formulae"
+echo "==> Upgrading installed formulae"
 brew upgrade
 
-# Install homebrew cask for gui apps
-brew install caskroom/cask/brew-cask
+for TAP in ${TAPS[@]}; do
+	brew tap "$TAP"
+done
 
-# Install useful things
-brew install tree
-brew install node
-brew install lftp
-brew install git
-brew install gpg
-brew install gpg-agent
-brew install pass
-brew install keychain
+for PKG in ${PKGS[@]}; do
+	brew install "$PKG"
+done
 
-# Tap and install mpv
-brew tap mpv-player/mpv
-brew install mpv
-brew linkapps mpv
-
-# Install php
-brew tap homebrew/dupes && brew tap homebrew/versions && brew tap homebrew/homebrew-php
-brew install php56
+for APP in ${LINKAPPS[@]}; do
+	brew linkapps "$APP"
+done
 
 # Cleanup outdated things
-echo "Cleaning up homebrew"
+echo "==> Cleaning up homebrew"
 brew cleanup

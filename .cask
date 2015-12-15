@@ -1,29 +1,35 @@
 #!/bin/bash
 
-echo "Tapping caskroom/versions"
+APPS=(
+	alfred
+	google-chrome
+	dropbox
+	sourcetree
+	sublime-text3
+	sequel-pro
+	virtualbox
+	vagrant
+	poedit
+	flux
+	spotify
+	transmission
+	atext
+	slack
+	firefox
+	bartender
+)
+
+echo "==> Tapping caskroom/versions"
 brew tap caskroom/versions
 
-echo "Upgrading homebrew-cask"
+echo "==> Upgrading homebrew-cask"
 brew upgrade brew-cask
 
-echo "Installing gui apps"
-brew cask install alfred
-brew cask install google-chrome
-brew cask install dropbox
-brew cask install sourcetree
-brew cask install sublime-text3
-brew cask install sequel-pro
-brew cask install virtualbox
-brew cask install vagrant
-brew cask install poedit
-brew cask install flux
-brew cask install spotify
-brew cask install transmission
-brew cask install atext
-brew cask install slack
-brew cask install firefox
-brew cask install bartender
+echo "==> Installing gui apps"
+for APP in ${APPS[@]}; do
+	brew cask install "$APP"
+done
 
 # Cleanup outdated things
-echo "Cleaning up homebrew-cask"
+echo "==> Cleaning up homebrew-cask"
 brew cask cleanup

@@ -1,4 +1,17 @@
 #!/bin/bash
-npm install -g trash-cli
-npm install -g gulp
-npm install -g tvsort
+
+PKGS=(
+	trash-cli
+	gulp
+	tvsort
+)
+
+for PKG in ${PKGS[@]}; do
+	if npm list --depth=0 -g "$PKG" | grep "$PKG" &> /dev/null; then
+		echo "==> npm install -g $PKG"
+		npm update -g "$PKG"
+	else
+		echo "==> npm update -g $PKG"
+		npm install -g "$PKG"
+	fi
+done;
