@@ -36,8 +36,8 @@ Maid.rules do
     end
 
     # These can generally be downloaded again very easily if needed
-    dir('~/Downloads/*.{apk,deb,dmg,exe,pkg,rpm,app}').each do |p|
-      system("/usr/local/bin/trash '#{path}'") if 3.days.since?(accessed_at(p))
+    dir('~/Downloads/*.{apk,deb,dmg,exe,pkg,rpm,app}').each do |path|
+      system("/usr/local/bin/trash '#{path}'") if 3.days.since?(accessed_at(path))
     end
 
     dir('~/Downloads/*').each do |path|
