@@ -14,11 +14,10 @@ PKGS=(
 	lftp
 	git
 	gpg
-	gpg-agent
-	pass
-	keychain
 	php56
 	mpv
+	mosh
+	unrar
 )
 
 LINKAPPS=(

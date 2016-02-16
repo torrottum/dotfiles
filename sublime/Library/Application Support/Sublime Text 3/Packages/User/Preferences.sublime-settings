@@ -1,6 +1,6 @@
 {
 	"Seti_tabs_small": true,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -19,13 +19,13 @@
 	"ignored_packages":
 	[
 		"CSS",
-		"Vintage",
+		"Vintage"
 	],
 	"rulers":
 	[
 		80
 	],
 	"show_line_endings": true,
-	"theme": "Seti.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }

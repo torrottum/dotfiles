@@ -1,22 +1,30 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"Babel",
+		"Base16 Color Schemes",
 		"BracketHighlighter",
 		"CSS3",
 		"EditorConfig",
 		"Emmet",
 		"GitGutter",
+		"JavaScriptNext - ES6 Syntax",
 		"LESS",
+		"Markdown Extended",
 		"Markdown Preview",
 		"Package Control",
+		"React Templates",
 		"Seti_UI",
 		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-phpcs",
 		"Syntax Highlighting for Sass",
+		"Tomorrow Color Schemes",
 		"WordPress"
 	]
 }

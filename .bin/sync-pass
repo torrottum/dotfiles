@@ -1,6 +1,0 @@
-#!/bin/bash
-source $HOME/.keychain/$(hostname)-sh
-
-cd /Users/tor/.password-store
-git pull &> /dev/null
-git push &> /dev/null

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if hash brew 2> /dev/null; then
-	echo "==> Homebrew already installed";
+	echo "==> Homebrew is already installed";
 	exit;
 fi
 

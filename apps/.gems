@@ -3,4 +3,4 @@
 # Make sure rvm is sourced
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-gem install maid --pre
+gem install maid --pre --no-document
