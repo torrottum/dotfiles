@@ -8,8 +8,9 @@ Maid.rules do
       next if basename === "Limbo"
       next if basename === "Screenshots"
 
-      if 4.days.since?(added_at(path))
+      if 2.days.since?(added_at(path))
         move(path, '~/Desktop/Limbo')
+        system("/usr/local/bin/terminal-notifier -message \"Moved #{basename} to Limbo\"")
       end
     end
 
