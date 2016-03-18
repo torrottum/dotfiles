@@ -1,6 +1,6 @@
 {
-	"Seti_tabs_small": true,
-	"color_scheme": "Packages/User/SublimeLinter/base16-tomorrow.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -11,7 +11,7 @@
 		"node_modules",
 		".sass-cache"
 	],
-	"font_face": "Menlo",
+	"font_face": "Hack",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -26,6 +26,10 @@
 		80
 	],
 	"show_line_endings": true,
-	"theme": "Default.sublime-theme",
+	"spacegray_sidebar_tree_small": true,
+	"spacegray_tabs_auto_width": true,
+	"spacegray_tabs_font_small": true,
+	"spacegray_tabs_small": true,
+	"theme": "Spacegray.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
