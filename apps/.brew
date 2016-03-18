@@ -18,6 +18,7 @@ PKGS=(
 	"mpv --with-bundle"
 	mosh
 	unrar
+	terminal-notifier
 )
 
 LINKAPPS=(
