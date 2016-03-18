@@ -15,7 +15,7 @@ PKGS=(
 	git
 	gpg
 	php56
-	mpv
+	"mpv --with-bundle"
 	mosh
 	unrar
 )
@@ -34,8 +34,10 @@ for TAP in ${TAPS[@]}; do
 	brew tap "$TAP"
 done
 
-for PKG in ${PKGS[@]}; do
-	brew install "$PKG"
+for ((i = 0; i < ${#PKGS[@]}; i++)); do
+	PKG="${PKGS[$i]}"
+	IFS=' ' read -a BREW_ARGS <<< "$PKG"
+	brew install "${BREW_ARGS[@]}"
 done
 
 for APP in ${LINKAPPS[@]}; do
