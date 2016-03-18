@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Base16 Color Schemes",
 		"BracketHighlighter",
 		"CSS3",
 		"EditorConfig",
@@ -21,8 +20,6 @@
 		"Seti_UI",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-phpcs",
 		"Syntax Highlighting for Sass",
 		"Tomorrow Color Schemes",
 		"WordPress"
