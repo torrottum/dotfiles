@@ -41,6 +41,7 @@ Maid.rules do
     end
 
     dir('~/Downloads/*').each do |path|
+      basename = File.basename(path)
       next if basename === "Torrents"
       system("/usr/local/bin/trash '#{path}'") if 4.weeks.since?(added_at(path))
     end
