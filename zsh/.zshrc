@@ -24,6 +24,7 @@ alias ls="ls -G"
 
 autoload -U colors && colors
 setopt autocd
+bindkey -e
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
