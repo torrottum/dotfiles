@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -18,7 +18,6 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"CSS",
 		"Vintage"
 	],
 	"rulers":
@@ -29,7 +28,8 @@
 	"spacegray_sidebar_tree_small": true,
 	"spacegray_tabs_auto_width": true,
 	"spacegray_tabs_font_small": true,
-	"spacegray_tabs_small": true,
+	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

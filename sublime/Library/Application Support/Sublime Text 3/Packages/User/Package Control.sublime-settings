@@ -5,25 +5,17 @@
 	],
 	"installed_packages":
 	[
-		"Babel",
-		"BracketHighlighter",
-		"CSS3",
 		"EditorConfig",
-		"Emmet",
 		"GitGutter",
 		"JavaScriptNext - ES6 Syntax",
 		"LESS",
-		"Markdown Extended",
-		"Markdown Preview",
-		"Oceanic Next Color Scheme",
 		"Package Control",
-		"React Templates",
-		"Seti_UI",
+		"SCSS",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"Syntax Highlighting for Sass",
-		"Theme - Spacegray",
-		"Tomorrow Color Schemes",
-		"WordPress"
+		"Theme - Spacegray"
+	],
+	"repositories":
+	[
 	]
 }
