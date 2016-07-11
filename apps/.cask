@@ -9,7 +9,6 @@ APPS=(
 	sequel-pro
 	virtualbox
 	vagrant
-	poedit
 	flux
 	spotify
 	transmission
