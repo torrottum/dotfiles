@@ -15,8 +15,7 @@ APPS=(
 	atext
 	slack
 	firefox
-	bartender
-	iterm2-beta
+	iterm2
 )
 
 echo "==> Tapping caskroom/versions"
