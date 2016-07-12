@@ -5,6 +5,7 @@ export EDITOR="vim"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.5
 source /usr/local/bin/virtualenvwrapper.sh
 
 if hash gpg-agent 2>/dev/null; then
