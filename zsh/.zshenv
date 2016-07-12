@@ -3,6 +3,9 @@ export LANG="en_US.UTF-8"
 export PATH="/usr/local/bin:$HOME/.bin:$PATH"
 export EDITOR="vim"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/code
+source /usr/local/bin/virtualenvwrapper.sh
 
 if hash gpg-agent 2>/dev/null; then
     if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
