@@ -28,3 +28,4 @@ alias ls="ls -G"
 
 setopt autocd
 setopt interactivecomments
+bindkey -e
