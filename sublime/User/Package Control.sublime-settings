@@ -8,14 +8,8 @@
 		"EditorConfig",
 		"GitGutter",
 		"JavaScriptNext - ES6 Syntax",
-		"LESS",
-		"Package Control",
-		"SCSS",
-		"SideBarEnhancements",
-		"SublimeCodeIntel",
-		"Theme - Spacegray"
-	],
-	"repositories":
-	[
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control"
 	]
 }

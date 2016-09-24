@@ -1,0 +1,17 @@
+#!/bin/bash
+brew cask install alfred
+brew cask install google-chrome
+brew cask install jotta
+brew cask install sourcetree
+brew cask install sublime-text-dev
+brew cask install sequel-pro
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install flux
+brew cask install spotify
+brew cask install hazel
+brew cask install atext
+brew cask install slack
+brew cask install iterm2
+brew cask install firefox
+brew cask install postman
