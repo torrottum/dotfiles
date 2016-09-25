@@ -56,6 +56,12 @@ My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 	mkdir -p ~/.gnupg
 	ln -sf $(pwd)/gpg/gpg.conf ~/.gnupg/gpg.conf
 	ln -sf $(pwd)/gpg/gpg-agent.conf ~/.gnupg/gpg-agent.conf
+
+	## Composer
+	mkdir -p ~/.composer
+	ln -sf $(pwd)/composer/composer.json ~/.composer/composer.json
+	ln -sf $(pwd)/composer/composer.json ~/.composer/composer.lock
+	composer global install
 	```
 
 ## Credits
