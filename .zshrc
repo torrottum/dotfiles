@@ -26,6 +26,18 @@ zplug load
 alias irc="mosh tor@torrottum.no -- tmux attach -t irc"
 alias ls="ls -G"
 
+
+# auto push password-store
+function pass {
+    args_to_intercept=(insert edit generate rm mv cp)
+    if [[ " ${args_to_intercept[@]} " =~ " ${1} " ]]; then
+        command pass "$@"
+        command pass git push
+    else
+        command pass "$@"
+    fi
+}
+
 setopt autocd
 setopt interactivecomments
 bindkey -e
