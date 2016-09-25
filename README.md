@@ -21,7 +21,7 @@ My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 	# ZSH
 	ln -sf $(pwd)/.zshrc ~/.zshrc
 	ln -sf $(pwd)/.zshenv ~/.zshenv
-	ln -sf $(pwd)/.zsh ~/.zsh
+	ln -sf $(pwd)/zsh ~/.zsh
 
 	# Set zsh as shell
 	echo $(which zsh) | sudo tee -a /etc/shells
