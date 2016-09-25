@@ -9,7 +9,8 @@
 		".hg",
 		"CVS",
 		"node_modules",
-		".sass-cache"
+		".sass-cache",
+		"vendor"
 	],
 	"font_face": "SF Mono",
 	"font_size": 12,
