@@ -51,6 +51,11 @@ My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 	mkdir -p ~/.config/mpv
 	ln -sf $(pwd)/mpv/mpv.conf ~/.config/mpv/mpv.conf
 	ln -sf $(pwd)/mpv/input.conf ~/.config/mpv/input.conf
+
+	# GnuPG
+	mkdir -p ~/.gnupg
+	ln -sf $(pwd)/gpg/gpg.conf ~/.gnupg/gpg.conf
+	ln -sf $(pwd)/gpg/gpg-agent.conf ~/.gnupg/gpg-agent.conf
 	```
 
 ## Credits
