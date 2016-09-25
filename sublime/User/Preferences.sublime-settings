@@ -26,6 +26,10 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"rulers": [
+		80,
+		120
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"material_theme_accent_orange": true,
