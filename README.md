@@ -2,7 +2,7 @@
 My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 
 ## Installation
-1. Install [homebrew](http://brew.sh/) and [zplug](https://github.com/zplug/zplug)
+1. Install [homebrew](http://brew.sh/), [zplug](https://github.com/zplug/zplug), and XCode
 1. Clone the repo
 
 	```sh
