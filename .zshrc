@@ -10,10 +10,10 @@ antibody bundle sindresorhus/pure
 antibody bundle < ~/.zsh/zplugins
 
 # Stuff from oh-my-zsh
-source ~/.zsh/key-bindings.zsh
-source ~/.zsh/history.zsh
-source ~/.zsh/completion.zsh
-source ~/.zsh/directories.zsh
+source ~/.zsh/oh-my-zsh/lib/key-bindings.zsh
+source ~/.zsh/oh-my-zsh/lib/history.zsh
+source ~/.zsh/oh-my-zsh/lib/completion.zsh
+source ~/.zsh/oh-my-zsh/lib/directories.zsh
 
 setopt autocd
 setopt interactivecomments
