@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"EditorConfig",
+		"Generic Config",
 		"GitGutter",
 		"JavaScriptNext - ES6 Syntax",
 		"Markdown Preview",
