@@ -5,3 +5,17 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/tor/.gitignore_global
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	s = status
+	c = commit
+	lo = log --decorate --oneline
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
