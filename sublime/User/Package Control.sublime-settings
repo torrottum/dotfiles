@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"EditorConfig",
+		"Emmet",
 		"Generic Config",
 		"GitGutter",
 		"JavaScriptNext - ES6 Syntax",
