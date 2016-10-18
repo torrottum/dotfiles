@@ -19,5 +19,11 @@ brew install pass
 brew install python3
 brew install zsh
 brew install wget
+brew install rename
+brew install mas
+brew install php71
+brew install composer
+brew install php71-redis
+brew install htop
 
 brew linkapps mpv
