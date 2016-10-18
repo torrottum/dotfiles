@@ -29,6 +29,7 @@ My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 
 	# Git
 	ln -sf $(pwd)/.gitconfig ~/.gitconfig
+	ln -sf $(pwd)/.gitignore_global ~/.gitignore_global
 
 	# Homebrew
 	ln -sf $(pwd)/.cask ~/.cask
