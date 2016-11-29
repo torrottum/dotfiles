@@ -48,6 +48,9 @@ My dotfiles for my OS X computers (Early 2015 rMPB and hackintosh)
 	mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 	ln -sf $(pwd)/sublime/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 
+	# vim
+	ln -sf $(pwd)/vim/.vimrc ~/.vimrc
+
 	# Mpv
 	mkdir -p ~/.config/mpv
 	ln -sf $(pwd)/mpv/mpv.conf ~/.config/mpv/mpv.conf

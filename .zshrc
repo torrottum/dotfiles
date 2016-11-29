@@ -24,6 +24,8 @@ compinit
 
 alias irc="mosh tor@torrottum.no -- tmux attach -t irc"
 alias ls="ls -G"
+alias subl="echo use vim you fool!"
+
 # auto push password-store
 function pass {
     args_to_intercept=(insert edit generate rm mv cp)
