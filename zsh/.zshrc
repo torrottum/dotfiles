@@ -33,3 +33,4 @@ autoload -U compinit
 compinit
 
 alias ls="ls -G"
+alias qbrew='HOMEBREW_NO_AUTO_UPDATE=1 brew'
