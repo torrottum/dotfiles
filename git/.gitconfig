@@ -1,0 +1,16 @@
+[user]
+	email = tor@rottum.me
+	name = Tor Røttum
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/tor/.gitignore_global
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	s = status
+	c = commit
+	lo = log --decorate --oneline
