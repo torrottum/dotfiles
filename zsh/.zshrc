@@ -1,7 +1,7 @@
 if ! hash antibody 2> /dev/null; then
     if hash brew 2> /dev/null; then
         echo "Installing antibody ..."
-        brew install antibody
+        brew install getantibody/tap/antibody
     else
         echo 'Install antibody: https://github.com/getantibody/antibody'
         return
