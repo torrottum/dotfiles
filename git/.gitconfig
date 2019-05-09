@@ -7,12 +7,15 @@
 	default = simple
 [core]
 	excludesfile = /Users/tor/.gitignore_global
+	pager = less --quit-if-one-screen --raw-control-chars --no-init
 [alias]
 	co = checkout
 	br = branch
 	ci = commit
 	s = status
 	c = commit
+	cara = commit --amend --reset-author
+	ca  = commit --amend
 	lo = log --decorate --oneline
 [includeIf "gitdir:~/code/vimond/"]
 	path = ~/.gitconfig_vimond
